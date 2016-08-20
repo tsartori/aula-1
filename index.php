@@ -1,13 +1,15 @@
-
+<?php
+    $variavel ="Hello world!";
+?>
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
+  <?php
+    include "layout/head.php";
+  ?>
   <body>
     <?php
+      echo $variavel;
       echo="Hello world!";
     ?>
   </body>
