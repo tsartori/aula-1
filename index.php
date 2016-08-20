@@ -6,11 +6,7 @@
 <html>
   <?php
     include "layout/head.php";
+    include "layout/body.php"
   ?>
-  <body>
-    <?php
-      echo $variavel;
-      echo="Hello world!";
-    ?>
-  </body>
+  
 </html>
